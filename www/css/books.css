@@ -1,0 +1,47 @@
+.author {
+    grid-area: author;
+}
+
+.description {
+    grid-area: description;
+}
+
+.amazon {
+    grid-area: amazon;
+}
+
+.image {
+    grid-area: image;
+}
+
+@media screen and (min-width: 550px)
+{
+    .book {
+        display: grid;
+        width: 550px;
+        height: 700px;
+        grid-template-areas: "author author"
+                         "description description"
+                         "amazon image";
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .image {
+        width:200px;
+    }
+}
+.book {
+    border-radius: 10px;
+    background-color: grey;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.container-book {
+    display: inline-table;
+    justify-content: center;
+    margin: auto;
+}
