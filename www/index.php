@@ -21,7 +21,6 @@ $products = $modele_bdd->selectProducts();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/progress_bar.css">
-    <link rel="stylesheet" href="css/books.css">
     <title>Index</title>
 </head>
 <body>
@@ -36,16 +35,15 @@ $products = $modele_bdd->selectProducts();
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="vue/admin.php">admin</a>
-                <a class="nav-link" href="vue/formulaire.html">formulaire</a>
-                <a class="nav-link" href="spotify/spotify.html">spotify</a>
+                <a class="nav-link" href="index.php">Index</a>
+                <a class="nav-link" href="vue/admin.php">Admin</a>
+                <a class="nav-link" href="vue/formulaire.html">Formulaire</a>
+                <a class="nav-link" href="spotify/spotify.html">Spotify</a>
+                <a class="nav-link" href="vue/books.html">Books</a>
+                <a class="nav-link" href="vue/pokemon.html">Pokemon</a>
             </div>
         </div>
     </nav>
-
-    <div class="carousel-inner container-book">
-    </div>
-    <script src="js/nyt.js"></script>
     
     <!-- <div class="progress-bar">
         <div class="progress">

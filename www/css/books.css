@@ -18,7 +18,6 @@
 {
     .book {
         display: grid;
-        width: 550px;
         height: 700px;
         grid-template-areas: "author author"
                          "description description"
@@ -33,11 +32,11 @@
     }
 }
 .book {
-    border-radius: 10px;
     background-color: grey;
     margin: auto;
-    margin-bottom: 50px;
     padding: 20px;
+    border-style: solid;
+    border-color: black;
 }
 
 .container-book {

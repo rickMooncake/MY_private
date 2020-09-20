@@ -96,6 +96,8 @@ class Modele_product
 
         $query = $bdd->prepare("INSERT INTO products (product_name, description, price) VALUES (:product_name, :description, :price");
         $query->execute([":product_name" => $product_name, ":description" => $description, ":price" => $price]);
+        echo "pushed";
+        return (1);
     }
 
     public function pushImageName($imagename)
@@ -105,6 +107,7 @@ class Modele_product
 
         $query = $bdd->prepare("INSERT INTO products (image_address) VALUES (:imagename)");
         $query->execute([":imagename" => $imagename]);
+        echo "pushed";
     }
 
     public function selectDatas()

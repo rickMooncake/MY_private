@@ -56,7 +56,7 @@ if (isset($_POST["product_name"]) && isset($_POST["price"]) && isset($_POST["des
 
     if ($controller_product->checkProductName($_POST["product_name"]) && $controller_product->checkPrice($_POST["price"]) && $controller_product->checkDescription($_POST["description"]))
     {
-        $modele_product->pushProductDatas($_POST["product_name"], $_POST["price"], $_POST["description"]);
+        $modele_product->pushProductDatas(htmlspecialchars($_POST["product_name"]), htmlspecialchars($_POST["price"]), htmlspecialchars($_POST["description"]));
         echo "produit créé";
     }
 }
