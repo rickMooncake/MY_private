@@ -1,0 +1,17 @@
+label {
+  display:block;
+  float:left;
+  width:150px;
+}
+
+.champs {
+  border:solid 3px grey;
+  padding:20px;
+  width:200px;
+}
+
+#containform {
+  width:200px;
+  margin:auto;
+  margin-top: 250px;
+}
