@@ -1,5 +1,0 @@
-dn: uid=wesley,ou=people,dc=42,dc=fr
-mobile: 0618624334
-email-adress: wesley.pigny@gmail.com
-changetype: modify
-delete: pouette
